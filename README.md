@@ -1,17 +1,17 @@
 # Fungal_Disease_Classfication_In_Plants_Using_Leaf_Images
- Project Title: Plant Disease Classification using Leaf Images
-Project Overview
+# Project Title: Plant Disease Classification using Leaf Images
+# Project Overview
 Developed a machine learning model for classifying fungal diseases in plants using leaf images. The project involved data collection, preprocessing, feature extraction with CNNs, and model training and evaluation. Achieved high accuracy in disease classification.
 
 The "Plant Disease Classification using Leaf Images" project leverages artificial intelligence and computer vision technologies to address agricultural challenges faced by farmers. The primary objective is to develop a system for the early detection and diagnosis of crop diseases by analyzing images of plant leaves. Early disease detection is crucial for optimizing crop yields and ensuring healthier crops.
 
-Dataset
+# Dataset:
 The project utilizes the "PlantVillage Dataset" sourced from Kaggle, containing a diverse collection of plant images, including various crops such as apple, cherry, corn, grape, potato, and tomato. The dataset encompasses 22 classes and a total of 22,387 images.
 
-Dataset Structure
+# Dataset Structure
 APPLE (4 classes) CHERRY (2 classes) CORN (4 classes) GRAPE (3 classes) POTATO (3 classes) TOMATO (6 classes)
 
-Model Architecture
+# Model Architecture
 The model is based on the VGG16 architecture, with the top (fully connected) layers replaced to suit the classification task. The key components of the model include:
 
 Input layer: Accepts images of size 224x224x3. Convolutional layers: 13 convolutional layers with ReLU activation functions. Flatten layer: Flattens the output of the last max pooling layer. Dense layers: Two fully connected layers with ReLU activation functions. Dropout layer: Prevents overfitting by randomly dropping out neurons during training. Output layer: Dense layer with 22 neurons, representing the 22 classes, and a softmax activation function.
